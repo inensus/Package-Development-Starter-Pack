@@ -4,7 +4,7 @@ use Inensus\Package\Providers\EventServiceProvider;
 use Inensus\Package\Providers\RouteServiceProvider;
 use Inensus\SparkMeter\Providers\ObserverServiceProvider;
 
-class ServiceProvider extends ServiceProvider
+class {{Package-Name}}ServiceProvider extends ServiceProvider
 {
     public function boot()
     {
