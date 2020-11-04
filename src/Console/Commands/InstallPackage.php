@@ -1,5 +1,5 @@
 <?php
-namespace Inensus\SparkMeter\Console\Commands;
+namespace Inensus\{{Package-Name}}\Console\Commands;
 
 use Illuminate\Console\Command;
 use Inensus\{{Package-Name}}\Services\MenuItemService;
