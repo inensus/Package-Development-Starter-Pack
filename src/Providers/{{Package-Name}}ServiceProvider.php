@@ -1,8 +1,8 @@
 <?php
 use Illuminate\Support\ServiceProvider;
-use Inensus\Package\Providers\EventServiceProvider;
-use Inensus\Package\Providers\RouteServiceProvider;
-use Inensus\SparkMeter\Providers\ObserverServiceProvider;
+use Inensus\{{Package-Name}}\Providers\EventServiceProvider;
+use Inensus\{{Package-Name}}\Providers\RouteServiceProvider;
+use Inensus\{{Package-Name}}\Providers\ObserverServiceProvider;
 
 class {{Package-Name}}ServiceProvider extends ServiceProvider
 {
