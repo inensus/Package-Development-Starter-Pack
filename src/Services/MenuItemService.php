@@ -1,27 +1,24 @@
 <?php
 
-namespace Inensus\{{Package-Name}}\Services;
-
+namespace Inensus\WavecomPaymentProvider\Services;
 
 class MenuItemService
 {
     public function createMenuItems()
     {
         $menuItem = [
-            'name' =>'{{Menu-Item}}',
-            'url_slug' =>'',
-            'md_icon' =>''
+            'name' => '{{Menu-Item}}',
+            'url_slug' => '',
+            'md_icon' => ''
         ];
-        $subMenuItems= array();
+        $subMenuItems = array();
 
-        $subMenuItem1=[
-            'name' =>'{{Submenu-Item}}',
-            'url_slug' =>'{{menu-item}}/{{submenu-item}}',
+        $subMenuItem1 = [
+            'name' => '{{Submenu-Item}}',
+            'url_slug' => '{{menu-item}}/{{submenu-item}}',
         ];
         array_push($subMenuItems, $subMenuItem1);
 
-        return ['menuItem'=>$menuItem,'subMenuItems'=>$subMenuItems];
-
-
+        return ['menuItem' => $menuItem,'subMenuItems' => $subMenuItems];
     }
 }
